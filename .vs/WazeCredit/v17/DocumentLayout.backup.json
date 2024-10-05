@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Visual Studio Projects\\WazeCredit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|c:\\visual studio projects\\wazecredit\\wazecredit\\utility\\appsettingsclasses\\wazeforecastsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|solutionrelative:wazecredit\\utility\\appsettingsclasses\\wazeforecastsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|c:\\visual studio projects\\wazecredit\\wazecredit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|solutionrelative:wazecredit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|c:\\visual studio projects\\wazecredit\\wazecredit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|solutionrelative:wazecredit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|c:\\visual studio projects\\wazecredit\\wazecredit\\utility\\appsettingsclasses\\sendgridsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|solutionrelative:wazecredit\\utility\\appsettingsclasses\\sendgridsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|c:\\visual studio projects\\wazecredit\\wazecredit\\utility\\appsettingsclasses\\twiliosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|solutionrelative:wazecredit\\utility\\appsettingsclasses\\twiliosettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|c:\\visual studio projects\\wazecredit\\wazecredit\\utility\\appsettingsclasses\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9674EF6B-971C-4F89-865F-230955368258}|WazeCredit\\WazeCredit.csproj|solutionrelative:wazecredit\\utility\\appsettingsclasses\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SendGridSettings.cs",
+              "DocumentMoniker": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\Utility\\AppSettingsClasses\\SendGridSettings.cs",
+              "RelativeDocumentMoniker": "WazeCredit\\Utility\\AppSettingsClasses\\SendGridSettings.cs",
+              "ToolTip": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\Utility\\AppSettingsClasses\\SendGridSettings.cs",
+              "RelativeToolTip": "WazeCredit\\Utility\\AppSettingsClasses\\SendGridSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:51:57.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TwilioSettings.cs",
+              "DocumentMoniker": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\Utility\\AppSettingsClasses\\TwilioSettings.cs",
+              "RelativeDocumentMoniker": "WazeCredit\\Utility\\AppSettingsClasses\\TwilioSettings.cs",
+              "ToolTip": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\Utility\\AppSettingsClasses\\TwilioSettings.cs",
+              "RelativeToolTip": "WazeCredit\\Utility\\AppSettingsClasses\\TwilioSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:51:26.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StripeSettings.cs",
+              "DocumentMoniker": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\Utility\\AppSettingsClasses\\StripeSettings.cs",
+              "RelativeDocumentMoniker": "WazeCredit\\Utility\\AppSettingsClasses\\StripeSettings.cs",
+              "ToolTip": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\Utility\\AppSettingsClasses\\StripeSettings.cs",
+              "RelativeToolTip": "WazeCredit\\Utility\\AppSettingsClasses\\StripeSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:51:09.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WazeForeCastSettings.cs",
+              "DocumentMoniker": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\Utility\\AppSettingsClasses\\WazeForeCastSettings.cs",
+              "RelativeDocumentMoniker": "WazeCredit\\Utility\\AppSettingsClasses\\WazeForeCastSettings.cs",
+              "ToolTip": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\Utility\\AppSettingsClasses\\WazeForeCastSettings.cs",
+              "RelativeToolTip": "WazeCredit\\Utility\\AppSettingsClasses\\WazeForeCastSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:50:10.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\Program.cs",
+              "RelativeDocumentMoniker": "WazeCredit\\Program.cs",
+              "ToolTip": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\Program.cs",
+              "RelativeToolTip": "WazeCredit\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T11:32:08.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\appsettings.json",
+              "RelativeDocumentMoniker": "WazeCredit\\appsettings.json",
+              "ToolTip": "C:\\Visual Studio Projects\\WazeCredit\\WazeCredit\\appsettings.json",
+              "RelativeToolTip": "WazeCredit\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T11:32:00.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

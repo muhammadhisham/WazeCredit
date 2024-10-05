@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WazeCredit", "WazeCredit\WazeCredit.csproj", "{9674EF6B-971C-4F89-865F-230955368258}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9674EF6B-971C-4F89-865F-230955368258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9674EF6B-971C-4F89-865F-230955368258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9674EF6B-971C-4F89-865F-230955368258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9674EF6B-971C-4F89-865F-230955368258}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E19EBDD2-3A86-4E5D-A263-35FB2D07CD49}
+	EndGlobalSection
+EndGlobal
