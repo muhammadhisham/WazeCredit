@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WazeCredit/obj/Debug/net8.0/WazeCredit.AssemblyInfo.cs
+/WazeCredit/bin/Debug/net8.0/WazeCredit.dll
+/WazeCredit/bin/Debug/net8.0/WazeCredit.exe
+/WazeCredit/bin/Debug/net8.0/WazeCredit.pdb
+/WazeCredit/obj/Debug/net8.0/ref/WazeCredit.dll
+/WazeCredit/obj/Debug/net8.0/refint/WazeCredit.dll
+/WazeCredit/obj/Debug/net8.0/WazeCredit.sourcelink.json
+/WazeCredit/obj/Debug/net8.0/apphost.exe
+/WazeCredit/obj/Debug/net8.0/WazeCredit.AssemblyInfoInputs.cache
+/WazeCredit/obj/Debug/net8.0/WazeCredit.csproj.CoreCompileInputs.cache
+/WazeCredit/obj/Debug/net8.0/WazeCredit.csproj.FileListAbsolute.txt
+/WazeCredit/obj/Debug/net8.0/WazeCredit.dll
+/WazeCredit/obj/Debug/net8.0/WazeCredit.GeneratedMSBuildEditorConfig.editorconfig
+/WazeCredit/obj/Debug/net8.0/WazeCredit.pdb
