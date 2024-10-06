@@ -1,0 +1,11 @@
+﻿@model WazeCredit.Models.ViewModel.AppSettingsMV
+
+<div class="p-4">
+    <h3>Following are the configurations from AppSettings:</h3>
+    <ul>
+        @foreach (var message in Model.AppSettingsMessages)
+        {
+            <li>@message</li>
+        }
+    </ul>
+</div>

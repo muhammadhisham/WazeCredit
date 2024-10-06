@@ -17,10 +17,13 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddTransient<IMarketForecasterService, MarketForecasterServiceV2>();
+
+//Reading App settings
 builder.Services.Configure<WazeForeCastSettings>(builder.Configuration.GetSection("WazeForecast"));
 builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 builder.Services.Configure<TwilioSettings>(builder.Configuration.GetSection("Twilio"));
 builder.Services.Configure<SendGridSettings>(builder.Configuration.GetSection("SendGrid"));
+
 
 
 var app = builder.Build();

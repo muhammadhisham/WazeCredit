@@ -11,6 +11,7 @@ namespace WazeCredit.Controllers
     public class HomeController : Controller
     {
         public HomeMV homeMV;
+        public AppSettingsMV appSettingsMV;
         private readonly IMarketForecasterService _marketForecasterService;
         private readonly StripeSettings _stripeOptions;
         private readonly SendGridSettings _sendGridOptions;
@@ -23,7 +24,13 @@ namespace WazeCredit.Controllers
             IOptions<WazeForeCastSettings> wazeForeCastOptions)
         {
             homeMV = new HomeMV();
+            appSettingsMV = new AppSettingsMV();
             _marketForecasterService = marketForecasterService;
+            _stripeOptions = stripeOptions.Value;
+            _sendGridOptions = sendGridOptions.Value;
+            _twilioOptions = twilioOptions.Value;
+            _wazeForeCastOptions = wazeForeCastOptions.Value;
+
         }
 
         public IActionResult Index()
@@ -50,6 +57,18 @@ namespace WazeCredit.Controllers
             }
 
             return View(homeMV);
+        }
+
+        public IActionResult AllConfigurations()
+        {
+            List<string> messages = new List<string>();
+            messages.Add($"Waze Forecast Setting - Forecast Tracker: "+_wazeForeCastOptions.ForecastTrackerEnabled.ToString());
+            messages.Add($"Stripe Setting - Publish key: "+_stripeOptions.PublishableKey.ToString());
+            messages.Add($"Stripe Setting - Secret key: "+_stripeOptions.SecretKey.ToString());
+            
+            appSettingsMV.AppSettingsMessages = messages;
+
+            return View(appSettingsMV);
         }
 
         public IActionResult Privacy()
