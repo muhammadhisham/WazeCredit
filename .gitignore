@@ -602,7 +602,8 @@ $RECYCLE.BIN/
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudio,csharp
-/.vs/WazeCredit/FileContentIndex/13b96a02-dec9-418b-9279-7a7ed5ffacbb.vsidx
-/.vs/WazeCredit/FileContentIndex/6789781e-a832-4e5f-bad1-f1d9eee53c3f.vsidx
-/.vs/WazeCredit/FileContentIndex/89dd5cbb-8ca1-4354-bdf7-3376f9b4f612.vsidx
-/.vs/WazeCredit/DesignTimeBuild/.dtbcache.v2
+/.vs/WazeCredit/*
+/.vs/WazeCredit/v17/.futdcache.v2
+/.vs/WazeCredit/v17/.suo
+/.vs/WazeCredit/v17/DocumentLayout.backup.json
+/.vs/WazeCredit/v17/DocumentLayout.json
