@@ -13,23 +13,19 @@ namespace WazeCredit.Controllers
         public HomeMV homeMV;
         public AppSettingsMV appSettingsMV;
         private readonly IMarketForecasterService _marketForecasterService;
-        private readonly StripeSettings _stripeOptions;
         private readonly SendGridSettings _sendGridOptions;
         private readonly TwilioSettings _twilioOptions;
-        private readonly WazeForeCastSettings _wazeForeCastOptions;
         public HomeController(IMarketForecasterService marketForecasterService,
-            IOptions<StripeSettings> stripeOptions,
+            
             IOptions<SendGridSettings> sendGridOptions,
-            IOptions<TwilioSettings> twilioOptions,
-            IOptions<WazeForeCastSettings> wazeForeCastOptions)
+            IOptions<TwilioSettings> twilioOptions)
         {
             homeMV = new HomeMV();
             appSettingsMV = new AppSettingsMV();
             _marketForecasterService = marketForecasterService;
-            _stripeOptions = stripeOptions.Value;
             _sendGridOptions = sendGridOptions.Value;
             _twilioOptions = twilioOptions.Value;
-            _wazeForeCastOptions = wazeForeCastOptions.Value;
+            
 
         }
 
@@ -59,12 +55,12 @@ namespace WazeCredit.Controllers
             return View(homeMV);
         }
 
-        public IActionResult AllConfigurations()
+        public IActionResult AllConfigurations([FromServices] IOptions<WazeForeCastSettings> wazeForeCastOptions, [FromServices] IOptions<StripeSettings> stripeOptions)
         {
             List<string> messages = new List<string>();
-            messages.Add($"Waze Forecast Setting - Forecast Tracker: "+_wazeForeCastOptions.ForecastTrackerEnabled.ToString());
-            messages.Add($"Stripe Setting - Publish key: "+_stripeOptions.PublishableKey.ToString());
-            messages.Add($"Stripe Setting - Secret key: "+_stripeOptions.SecretKey.ToString());
+            messages.Add($"Waze Forecast Setting - Forecast Tracker: "+wazeForeCastOptions.Value.ForecastTrackerEnabled.ToString());
+            messages.Add($"Stripe Setting - Publish key: "+stripeOptions.Value.PublishableKey.ToString());
+            messages.Add($"Stripe Setting - Secret key: "+stripeOptions.Value.SecretKey.ToString());
             
             appSettingsMV.AppSettingsMessages = messages;
 
