@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using WazeCredit.Data;
 using WazeCredit.Middleware;
 using WazeCredit.Models.Service;
+using WazeCredit.Models.Service.ServicesLifetimeExamples;
 using WazeCredit.Utility.DI_Config;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,6 +22,9 @@ builder.Services.AddTransient<IMarketForecasterService, MarketForecasterServiceV
 
 //Reading App settings
 builder.Services.AddAppSettingsConfig(builder.Configuration);
+builder.Services.AddSingleton<SingletonService>();
+builder.Services.AddScoped<ScopedService>();
+builder.Services.AddTransient<TransientService>();
 
 
 
