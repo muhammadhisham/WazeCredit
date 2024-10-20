@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WazeCredit.Data;
+using WazeCredit.Middleware;
 using WazeCredit.Models.Service;
 using WazeCredit.Utility.DI_Config;
 
@@ -43,6 +44,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseMiddleware<CustomMiddleware>();
 
 app.MapControllerRoute(
     name: "default",
